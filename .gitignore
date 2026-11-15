@@ -16,3 +16,10 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+
+# apk_audit 测试产物
+tests/fixtures/*.apk
+tests/fixtures/*.key
+tests/fixtures/*.crt
+tests/_keystore_tmp/
+*.apk
